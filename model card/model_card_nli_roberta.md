@@ -9,7 +9,7 @@ tags:
 
 - text-classification
 - natural-language-inference
-repo: 
+repo: [https://github.com/yukarikane/nlu_group19](https://github.com/yukarikane/nlu_group19)
 
 ---
 

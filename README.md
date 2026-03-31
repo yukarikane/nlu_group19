@@ -1,7 +1,7 @@
 # COMP34812 NLU Coursework — NLI Solutions
 
 **Group:** Yihan Sun, Jianing Ren, Xiayuan Jin (Group 19)  
-**Repository:** 
+**Repository:** [https://github.com/yukarikane/nlu_group19](https://github.com/yukarikane/nlu_group19)
 
 This repository contains **two distinct solutions** for the **Natural Language Inference (NLI)** track (Track A): a **traditional ML** pipeline (TF-IDF + LinearSVC) and a **Transformer** fine-tuning pipeline (RoBERTa with MNLI pre-training). Both use only the **course-provided** training and development data (closed task).
 
@@ -55,7 +55,7 @@ Column names expected: `premise`, `hypothesis`, and `label` for train/dev; test 
 1. Open the notebook from the **project root** `nlu_cwk/` (so paths like `training_data/NLI/` resolve), or from `optimisation/` (paths fall back to `../training_data/NLI`).
 2. Run cells in order:
   - **§1 Training**: fits vectoriser + classifier, then saves  
-    `optimisation/nli_tfidf_artifacts/tfidf_linsvc.joblib`.
+  `optimisation/nli_tfidf_artifacts/tfidf_linsvc.joblib`.
   - **§2 Evaluation**: metrics on the development set.
   - **§3 Test inference**: writes `tf_IDF_predictions.csv` if a test file is found.  
   If the joblib file exists, the test section can reload the model without re-running training.
